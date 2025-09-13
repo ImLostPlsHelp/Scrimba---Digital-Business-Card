@@ -118,7 +118,7 @@ To run this project, you need to install npm.
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ImLostPlsHelp/Scrimba---Digital-Business-Card
    ```
 2. Install NPM packages
    ```sh

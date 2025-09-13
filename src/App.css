@@ -40,3 +40,52 @@
 .read-the-docs {
   color: #888;
 }
+
+.my-photo {
+  width: 100%;
+  max-width: 317px;
+  max-height: 317px;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+  object-position: top;
+}
+
+.role {
+  color: #F3BF99;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.email-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  color: #000000;
+  border: 1px;
+  border-radius: 6px;
+  padding: 9px 13px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 9px 13px;
+}
+
