@@ -1,6 +1,6 @@
-import mauritsPhoto from "../assets/maurits.jpg"
-import emailIcon from "../assets/Mail.png"
-import linkedinIcon from "../assets/linkedin.png"
+import mauritsPhoto from "/src/assets/maurits.jpg"
+import emailIcon from "/src/assets/Mail.png"
+import linkedinIcon from "/src/assets/linkedin.png"
 
 export default function Info() {
     return (

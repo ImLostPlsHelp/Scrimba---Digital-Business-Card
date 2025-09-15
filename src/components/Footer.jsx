@@ -1,7 +1,7 @@
-import twitterIcon from "../assets/Twitter Icon.png" //Harus pakai import biar nanti pas build biar vite bisa handle pathnya
-import facebookIcon from "../assets/Facebook Icon.png"
-import instagramIcon from "../assets/Instagram Icon.png"
-import githubIcon from "../assets/Github Icon.png"
+import twitterIcon from '/src/assets/Twitter Icon.png';
+import facebookIcon from '/src/assets/Facebook Icon.png';
+import instagramIcon from '/src/assets/Instagram Icon.png';
+import githubIcon from '/src/assets/Github Icon.png';
 
 export default function Footer() {
     return (
