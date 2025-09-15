@@ -1,11 +1,16 @@
+import twitterIcon from "../assets/Twitter Icon.png" //Harus pakai import biar nanti pas build biar vite bisa handle pathnya
+import facebookIcon from "../assets/Facebook Icon.png"
+import instagramIcon from "../assets/Instagram Icon.png"
+import githubIcon from "../assets/Github Icon.png"
+
 export default function Footer() {
     return (
         <footer>
             <nav className="social-icons">
-                <img src="/src/assets/Twitter Icon.png" alt="Twitter" />
-                <img src="/src/assets/Facebook Icon.png" alt="Facebook" />
-                <img src="/src/assets/Instagram Icon.png" alt="Instagram" />
-                <img src="/src/assets/Github Icon.png" alt="Github" />
+                <img src={twitterIcon} alt="Twitter" />
+                <img src={facebookIcon} alt="Facebook" />
+                <img src={instagramIcon} alt="Instagram" />
+                <img src={githubIcon} alt="Github" />
             </nav>
         </footer>
     )
